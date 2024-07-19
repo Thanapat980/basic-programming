@@ -3,11 +3,12 @@ const firstname: string = 'ธณพัฒน์ ศรีลาพัฒน์'
 let y: number = 10 
 y = 20
 
-let ต้องการกลับบ้าน: boolean = true
+let want_to_go_home: boolean = true
 
 console.log(firstname)
 console.log(y)
-console.log(ต้องการกลับบ้าน)
+console.log(want_to_go_home)
+
 
 const a: number = 15
 const b: number = 51
