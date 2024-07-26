@@ -48,3 +48,14 @@ function set(aname: string, bname: string, cname: string) {
 }
 
 set('mix', 'zane','forth')
+
+function add(gender: string, height: number, weight: number) {
+    
+    if (gender === 'man' && (height > 170 || (weight > 50 && weight <= 110))) {
+        console.log('จับใบดำใบแดง')
+    } else {
+        console.log('ไม่ต้องจับใบดำใบแดง')
+    }
+}
+
+add('man',170,60)
