@@ -59,3 +59,14 @@ function add(gender: string, height: number, weight: number) {
 }
 
 add('man',170,60)
+
+function input(ago: number, salary: number, deposit: number) {
+
+    if (ago > 16 && (salary <= 70000 && (deposit <= 500000 ))) {
+        console.log('รับ 10000บาท')
+    } else {
+        console.log('อด....')
+    }
+}
+
+input(18, 50000, 250000)
