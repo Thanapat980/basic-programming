@@ -45,3 +45,26 @@ function sayhi(dayofweek: number) {
 }
 
 sayhi(7)
+
+function sizeBro(size: string) {
+    switch (size) {
+    case ('s'):
+        console.log('ผอม')
+        break
+    case ('m'):
+        console.log('ผอม')
+        break 
+    case ('l'):
+        console.log('ท้วม')
+        break
+    case ('xl'):
+        console.log('อ้วน')
+        break
+    case ('2xl'):
+        console.log('อ้วน')
+        break
+    }
+    
+}
+
+sizeBro('xl')
