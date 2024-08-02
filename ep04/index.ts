@@ -113,3 +113,20 @@ function input(msg: string, index: number) {
 }
 
 console.log(input('หิวข้าวมันไก๊', 3))
+
+const str: string ='หิวข้าวมันไก๊น้อยอ่า'
+
+console.log(str.indexOf("ก"))
+
+const trs: string = 'iloveyousomuch'
+
+console.log(trs.includes('much'))
+
+function agreement(a: String, b: string) {
+    if (a.includes(b) === true) {
+        console.log(a.indexOf(b))
+    } else {console.log('ไม่พบคำค้นหา')
+    }
+}
+
+agreement('ง่วงชิบหาย', '202')
