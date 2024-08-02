@@ -68,3 +68,48 @@ function sizeBro(size: string) {
 }
 
 sizeBro('xl')
+
+function fixeddecimal(n: number, digit: number) {
+    const x = n.toFixed(digit)
+    return x
+}
+
+console.log(fixeddecimal(40.6789, 30))
+
+function addnumber(a: number) {
+    const x = a.toLocaleString()
+    return
+}
+
+console.log(addnumber(2000))
+
+function fixeddecimal(n: number, digit: number) {
+    const x = n.toFixed(digit)
+    return x
+}
+
+console.log(fixeddecimal(40.6789, 30))
+
+function addNumber(a: number) {
+    const x = a.toLocaleString()
+    return
+}
+
+console.log(addNumber(1000))
+
+const str: string = "ณเดชณ์ ณ บางแค"
+
+console.log(str.length)
+
+function checkStringLenght(n: string) {
+    const c = n.length
+    return c
+}
+
+console.log(checkStringLenght('adasfdsDFCXvVS'))
+
+function input(msg: string, index: number) {
+    return msg.charAt(index)
+}
+
+console.log(input('หิวข้าวมันไก๊', 3))
