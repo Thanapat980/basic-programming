@@ -123,10 +123,11 @@ const trs: string = 'iloveyousomuch'
 console.log(trs.includes('much'))
 
 function agreement(a: String, b: string) {
-    if (a.includes(b) === true) {
+    if (a.includes(b)) {
         console.log(a.indexOf(b))
-    } else {console.log('ไม่พบคำค้นหา')
+    } else {
+        console.log('ไม่พบคำค้นหา')
     }
 }
 
-agreement('ง่วงชิบหาย', '202')
+agreement('ง่วงชิบหาย', '444')
