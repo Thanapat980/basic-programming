@@ -45,3 +45,33 @@ console.log(str.replace('ทดสอบ', 'ไม่ทราบนามสก
 const str: string = 'ยายแล่ม เมื่อตอนสาวๆ ผิวขา ตาคม ยายแล่ม'
 
 console.log(str.replaceAll('ยายแล่ม', 'โรนัลโด้'))
+
+const str: string = 'นายทดสอบ สุดหล่อ'
+
+console.log(str.replaceAll('นาย', ''))
+
+
+function getPrefix(Fullname: string) {
+    if (Fullname.includes('นาย')) {
+        return 'นาย'
+    } else if (Fullname.includes('นางสาว')) {
+        return 'นางสาว' 
+    } else {
+        return '-'
+    }
+} 
+
+console.log(getPrefix('นายธณพัฒน์ ศรีลาพัฒน์'))
+
+
+const x: number = 5
+
+let y: string = 'Hi'
+
+var t: boolean = true
+
+function getname(name: string) {
+    return name
+} // output
+
+
