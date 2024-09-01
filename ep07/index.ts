@@ -97,3 +97,19 @@ const me = {
 // อายุ: 00
 // เบอร์: 1669
 // สัญชาติ: ไทย
+
+
+const me = {
+    firstName: 'Tanaphat',
+    lastName: 'Srilaphat',
+    address: '105/1' ,
+    road: 'chan road' ,
+    districk: 'wat don field' ,
+    couty: 'sathorn' ,
+    province: 'bangkok' ,
+    zipcode: '400001' ,
+    ponenumber: '1669' ,
+    pone: '191' ,
+    email: 'sawatdeekub191@gmail.com'
+
+}
