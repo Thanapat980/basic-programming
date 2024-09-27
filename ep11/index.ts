@@ -1,3 +1,10 @@
+const database = [
+    {
+        email: 'max@utk.ac.th',
+        password: 'bWF4aUB1dGsxMjM0'
+    }
+]
+
 function login(email: string, password: string) {
     const user = database.filter(function (element, index) {
         return element.email === email
@@ -14,3 +21,5 @@ function login(email: string, password: string) {
 }
 
 login('max@utk.ac.th', 'maxi@utk1234')
+
+
